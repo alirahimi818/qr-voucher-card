@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qrvc\n"
+"POT-Creation-Date: 2023-01-04 16:05+0100\n"
+"PO-Revision-Date: 2023-01-04 22:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin-voucher-logs.php:7 includes/admin-voucher-logs.php:56
+msgid "Voucher usage histories"
+msgstr "Nutzungsverlauf des Gutscheinen"
+
+#: includes/admin-voucher-logs.php:7
+msgid "Voucher histories"
+msgstr "Gutscheinverlauf"
+
+#: includes/admin-voucher-logs.php:61 includes/admin-voucher-logs.php:62
+#: includes/admin-vouchers.php:66 includes/admin-vouchers.php:67
+#: includes/shortcode.php:179
+msgid "Search"
+msgstr "Suche"
+
+#: includes/admin-voucher-logs.php:65 includes/admin-voucher-logs.php:71
+#: includes/admin-vouchers.php:70 includes/admin-vouchers.php:76
+msgid "from: "
+msgstr "von: "
+
+#: includes/admin-voucher-logs.php:67 includes/admin-voucher-logs.php:71
+#: includes/admin-vouchers.php:72 includes/admin-vouchers.php:76
+msgid "to: "
+msgstr "bis: "
+
+#: includes/admin-voucher-logs.php:68 includes/admin-vouchers.php:73
+msgid "Search by date"
+msgstr "Nach Datum suchen"
+
+#: includes/admin-voucher-logs.php:70 includes/admin-vouchers.php:75
+msgid "items count"
+msgstr "Artikel zählen"
+
+#: includes/admin-voucher-logs.php:76 includes/admin-vouchers.php:81
+msgid "code"
+msgstr "code"
+
+#: includes/admin-voucher-logs.php:77 includes/admin-vouchers.php:82
+msgid "price"
+msgstr "Preis"
+
+#: includes/admin-voucher-logs.php:78 includes/admin-vouchers.php:83
+msgid "used"
+msgstr "benutzt"
+
+#: includes/admin-voucher-logs.php:79 includes/admin-vouchers.php:86
+msgid "date"
+msgstr "datum"
+
+#: includes/admin-voucher-logs.php:98 includes/admin-vouchers.php:109
+msgid "Not found!"
+msgstr "Nicht gefunden!"
+
+#: includes/admin-voucher-logs.php:107 includes/admin-vouchers.php:118
+msgid "export"
+msgstr "export"
+
+#: includes/admin-voucher-logs.php:112 includes/admin-vouchers.php:123
+msgid "pages"
+msgstr "Seiten"
+
+#: includes/admin-vouchers.php:7 includes/admin-vouchers.php:60
+msgid "QR-Code Vouchers"
+msgstr "QR-Code Gutscheinen"
+
+#: includes/admin-vouchers.php:7
+msgid "Voucher Card"
+msgstr "Gutscheinkarte"
+
+#: includes/admin-vouchers.php:62
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: includes/admin-vouchers.php:84
+msgid "left over"
+msgstr "übrig bleiben"
+
+#: includes/admin-vouchers.php:85
+msgid "status"
+msgstr "status"
+
+#: includes/admin-vouchers.php:102
+msgid "active"
+msgstr "aktiv"
+
+#: includes/admin-vouchers.php:102
+msgid "inactive"
+msgstr "inaktiv"
+
+#: includes/pages.php:7
+msgid "Voucher Page"
+msgstr "Gutscheinseite"
+
+#: includes/pages.php:12
+msgid "Voucher QR Generator"
+msgstr "Gutschein-QR-Generator"
+
+#: includes/pages.php:17
+msgid "Voucher Show"
+msgstr "Gutschein anzeigen"
+
+#: includes/setting.php:27
+msgid "QR Voucher Card Setting"
+msgstr "QR-Gutscheinkarteneinstellung"
+
+#: includes/setting.php:33
+msgid "Currency symbol"
+msgstr "Währungszeichen"
+
+#: includes/setting.php:38
+msgid "For example: $, €, £,..."
+msgstr "Zum Beispiel: $, €, £,…"
+
+#: includes/setting.php:42
+msgid "Decimal price"
+msgstr "Dezimaler Preis"
+
+#: includes/setting.php:47
+msgid "Decimal number for voucher price."
+msgstr "Dezimalzahl für Gutscheinpreis."
+
+#: includes/setting.php:51
+msgid "Step Price"
+msgstr "Schrittpreis"
+
+#: includes/setting.php:55
+msgid "Step price in slider create voucher page."
+msgstr "Schrittpreis auf der Gutscheinseite."
+
+#: includes/setting.php:59
+msgid "Max Price"
+msgstr "Maximaler Preis"
+
+#: includes/setting.php:63
+msgid "Max price in create voucher page."
+msgstr "Höchstpreis auf der Gutscheinseite."
+
+#: includes/setting.php:67
+msgid "Default Price"
+msgstr "Standardpreis"
+
+#: includes/setting.php:72
+msgid "Default price in create voucher page."
+msgstr "Standardpreis auf der Seite Gutscheinseite."
+
+#: includes/setting.php:76
+msgid "Default Buttons Price"
+msgstr "Standardpreis für Buttons"
+
+#: includes/setting.php:81
+msgid "Default Buttons price in create voucher page."
+msgstr "Standardpreis für Buttons auf der Gutscheinseite."
+
+#: includes/setting.php:82
+msgid "Separate the amount of each button with a comma."
+msgstr "Trennen Sie die Anzahl der einzelnen button durch ein Komma."
+
+#: includes/setting.php:86
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: includes/shortcode.php:39
+msgid "Success Saved."
+msgstr "Erfolg gespeichert."
+
+#: includes/shortcode.php:91
+msgid "Enter Voucher Price"
+msgstr "Geben Sie den Gutscheinpreis ein"
+
+#: includes/shortcode.php:99
+msgid "Generate QR-Code"
+msgstr "QR-Code generieren"
+
+#: includes/shortcode.php:100
+msgid "Print QR-Code"
+msgstr "QR-Code drucken"
+
+#: includes/shortcode.php:145
+msgid "Used History: "
+msgstr "Gebrauchte verlauf: "
+
+#: includes/shortcode.php:154
+msgid "Voucher Price: "
+msgstr "Gutscheinpreis: "
+
+#: includes/shortcode.php:155
+msgid "Voucher Balance: "
+msgstr "Gutscheinguthaben: "
+
+#: includes/shortcode.php:175
+msgid "Voucher not found!"
+msgstr "Gutschein nicht gefunden!"
+
+#: includes/shortcode.php:177
+msgid "Enter the voucher code"
+msgstr "Geben Sie den Gutscheincode ein"
+
+#: includes/shortcode.php:187
+msgid "Enter the amount"
+msgstr "Geben Sie den Betrag ein"
+
+#: includes/shortcode.php:197
+msgid "Save"
+msgstr "Speichern"
+
+#~ msgid "items count: "
+#~ msgstr "Artikel zählen:"
+
+#~ msgid "It is not possible to re-register a duplicate bonus."
+#~ msgstr "Es ist nicht möglich, einen doppelten Bonus erneut zu registrieren."
+
+#~ msgid "Your bonus has been successfully registered."
+#~ msgstr "Ihr Bonus wurde erfolgreich registriert."
+
+#~ msgid "Users bonuses"
+#~ msgstr "Benutzerboni"
+
+#~ msgid "user"
+#~ msgstr "Benutzer"
+
+#~ msgid "not used"
+#~ msgstr "nicht benutzt"
+
+#~ msgid "bonus Profile"
+#~ msgstr "Bonusprofil"
+
+#~ msgid "Number of wins"
+#~ msgstr "Anzahl der Siege"
+
+#~ msgid "After this number, the user bonus card is reset."
+#~ msgstr "Nach dieser Zahl wird die Benutzer-Bonuskarte zurückgesetzt."
+
+#~ msgid "Card deactivate item image url"
+#~ msgstr "Bild-URL des inaktiven Kartenelements"
+
+#~ msgid "best size 80x80 pixel"
+#~ msgstr "beste Größe 80x80 Pixel"
+
+#~ msgid "Card active item image url"
+#~ msgstr "Bild-URL des aktiven Kartenelements"
+
+#~ msgid "Last scanned QR-Code at:"
+#~ msgstr "Zuletzt gescannter QR-Code bei:"
+
+#~ msgid "Last win at:"
+#~ msgstr "Letzter Sieg am:"
+
+#~ msgid "Win count:"
+#~ msgstr "Gewinnzähler:"
+
+#~ msgid "times"
+#~ msgstr "mal"
+
+#~ msgid "Bonus Cards"
+#~ msgstr "Bonuskarten"

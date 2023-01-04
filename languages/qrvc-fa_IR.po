@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qrvc\n"
+"POT-Creation-Date: 2023-01-04 22:09+0100\n"
+"PO-Revision-Date: 2023-01-04 22:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin-voucher-logs.php:7 includes/admin-voucher-logs.php:56
+msgid "Voucher usage histories"
+msgstr "تاریخچه کوپن های استفاده شده"
+
+#: includes/admin-voucher-logs.php:7
+msgid "Voucher histories"
+msgstr "تاریخچخ کوپن ها"
+
+#: includes/admin-voucher-logs.php:61 includes/admin-voucher-logs.php:62
+#: includes/admin-vouchers.php:66 includes/admin-vouchers.php:67
+#: includes/shortcode.php:179
+msgid "Search"
+msgstr "جستجو"
+
+#: includes/admin-voucher-logs.php:65 includes/admin-voucher-logs.php:71
+#: includes/admin-vouchers.php:70 includes/admin-vouchers.php:76
+msgid "from: "
+msgstr "از: "
+
+#: includes/admin-voucher-logs.php:67 includes/admin-voucher-logs.php:71
+#: includes/admin-vouchers.php:72 includes/admin-vouchers.php:76
+msgid "to: "
+msgstr "تا: "
+
+#: includes/admin-voucher-logs.php:68 includes/admin-vouchers.php:73
+msgid "Search by date"
+msgstr "جستجو بر اساس تاریخ"
+
+#: includes/admin-voucher-logs.php:70 includes/admin-vouchers.php:75
+msgid "items count"
+msgstr "تعداد آیتم ها"
+
+#: includes/admin-voucher-logs.php:76 includes/admin-vouchers.php:81
+msgid "code"
+msgstr "کد"
+
+#: includes/admin-voucher-logs.php:77 includes/admin-vouchers.php:82
+msgid "price"
+msgstr "قیمت"
+
+#: includes/admin-voucher-logs.php:78 includes/admin-vouchers.php:83
+msgid "used"
+msgstr "استفاده شده"
+
+#: includes/admin-voucher-logs.php:79 includes/admin-vouchers.php:86
+msgid "date"
+msgstr "تاریخ"
+
+#: includes/admin-voucher-logs.php:98 includes/admin-vouchers.php:109
+msgid "Not found!"
+msgstr "یافت نشد!"
+
+#: includes/admin-voucher-logs.php:107 includes/admin-vouchers.php:118
+msgid "export"
+msgstr "خروجی"
+
+#: includes/admin-voucher-logs.php:112 includes/admin-vouchers.php:123
+msgid "pages"
+msgstr "صفحات"
+
+#: includes/admin-vouchers.php:7 includes/admin-vouchers.php:60
+msgid "QR-Code Vouchers"
+msgstr "بارکد کوپن ها"
+
+#: includes/admin-vouchers.php:7
+msgid "Voucher Card"
+msgstr "کارت کوپن"
+
+#: includes/admin-vouchers.php:62
+msgid "Add New"
+msgstr "جدید"
+
+#: includes/admin-vouchers.php:84
+msgid "left over"
+msgstr "باقیمانده"
+
+#: includes/admin-vouchers.php:85
+msgid "status"
+msgstr "وضعیت"
+
+#: includes/admin-vouchers.php:102
+msgid "active"
+msgstr "فعال"
+
+#: includes/admin-vouchers.php:102
+msgid "inactive"
+msgstr "غیرفعال"
+
+#: includes/pages.php:7
+msgid "Voucher Page"
+msgstr "صفحه کوپن"
+
+#: includes/pages.php:12
+msgid "Voucher QR Generator"
+msgstr "بارکد ساز کوپن"
+
+#: includes/pages.php:17
+msgid "Voucher Show"
+msgstr "نمایش کوپن"
+
+#: includes/setting.php:27
+msgid "QR Voucher Card Setting"
+msgstr "تنظیمات کارت کوپن"
+
+#: includes/setting.php:33
+msgid "Currency symbol"
+msgstr "نماد ارز"
+
+#: includes/setting.php:38
+msgid "For example: $, €, £,..."
+msgstr "برای مثال: $, €, £,…"
+
+#: includes/setting.php:42
+msgid "Decimal price"
+msgstr "اعشار قیمت"
+
+#: includes/setting.php:47
+msgid "Decimal number for voucher price."
+msgstr "تعداد اعشار برای قیمت کوپن."
+
+#: includes/setting.php:51
+msgid "Step Price"
+msgstr "پله قیمت"
+
+#: includes/setting.php:55
+msgid "Step price in slider create voucher page."
+msgstr "پله قیمت در اسلایدر صفحه ایجاد کوپن."
+
+#: includes/setting.php:59
+msgid "Max Price"
+msgstr "بیشترین قیمت"
+
+#: includes/setting.php:63
+msgid "Max price in create voucher page."
+msgstr "بیشترین قیمت در صفحه ایجاد کوپن."
+
+#: includes/setting.php:67
+msgid "Default Price"
+msgstr "قیمت پیشفرض"
+
+#: includes/setting.php:72
+msgid "Default price in create voucher page."
+msgstr "قیمت پیشفرض در صفحه ایجاد کوپن."
+
+#: includes/setting.php:76
+msgid "Default Buttons Price"
+msgstr "قیمت دکمه های پیشفرض"
+
+#: includes/setting.php:81
+msgid "Default Buttons price in create voucher page."
+msgstr "قیمت دکمه های پیشفرض در صفحه ایجاد کوپن."
+
+#: includes/setting.php:82
+msgid "Separate the amount of each button with a comma."
+msgstr "قیمت ها را با کاما (,) از هم جدا کنید."
+
+#: includes/setting.php:86
+msgid "Date Format"
+msgstr "فرمت تاریخ"
+
+#: includes/shortcode.php:39
+msgid "Success Saved."
+msgstr "با موفقیت ذخیره شد."
+
+#: includes/shortcode.php:91
+msgid "Enter Voucher Price"
+msgstr "قیمت کوپن را وارد کنید"
+
+#: includes/shortcode.php:99
+msgid "Generate QR-Code"
+msgstr "ایجاد بارکد"
+
+#: includes/shortcode.php:100
+msgid "Print QR-Code"
+msgstr "چاپ بارکد"
+
+#: includes/shortcode.php:145
+msgid "Used History: "
+msgstr "تاریخچه استفاده شده: "
+
+#: includes/shortcode.php:154
+msgid "Voucher Price: "
+msgstr "قیمت کوپن: "
+
+#: includes/shortcode.php:155
+msgid "Voucher Balance: "
+msgstr "موجودی کوپن: "
+
+#: includes/shortcode.php:175
+msgid "Voucher not found!"
+msgstr "کوپن یافت نشد!"
+
+#: includes/shortcode.php:177
+msgid "Enter the voucher code"
+msgstr "کد کوپن را وارد کنید"
+
+#: includes/shortcode.php:187
+msgid "Enter the amount"
+msgstr "مقدار را وارد کنید"
+
+#: includes/shortcode.php:197
+msgid "Save"
+msgstr "ذخیره"
+
+#~ msgid "It is not possible to re-register a duplicate bonus."
+#~ msgstr "امکان ثبت مجدد جایزه تکراری وجود ندارد."
+
+#~ msgid "Your bonus has been successfully registered."
+#~ msgstr "جایزه شما با موفقیت ثبت شد."
+
+#~ msgid "Users bonuses"
+#~ msgstr "جوایز کاربران"
+
+#~ msgid "win count: "
+#~ msgstr "تعداد برنده: "
+
+#~ msgid "user"
+#~ msgstr "کاربر"
+
+#~ msgid "not used"
+#~ msgstr "استفاده نشده"
+
+#~ msgid "bonus Profile"
+#~ msgstr "پروفایل جایزه"
+
+#~ msgid "Number of wins"
+#~ msgstr "شماره دفعات برنده شدن"
+
+#~ msgid "After this number, the user bonus card is reset."
+#~ msgstr "پس از این شماره، کارت جایزه های کاربر ریست می شوند."
+
+#~ msgid "Card deactivate item image url"
+#~ msgstr "آدرس تصویر  آیتم غیرفعال کارت جایزه"
+
+#~ msgid "best size 80x80 pixel"
+#~ msgstr "بهترین سایز ۸۰ در ۸۰ پیکسل"
+
+#~ msgid "Card active item image url"
+#~ msgstr "آدرس تصویر  آیتم فعال کارت جایزه"
+
+#~ msgid "Last scanned QR-Code at:"
+#~ msgstr "آخرین بارکد اسکن شده در:"
+
+#~ msgid "Last win at:"
+#~ msgstr "آخرین زمان برنده شدن در:"
+
+#~ msgid "Win count:"
+#~ msgstr "تعداد برنده شدن:"
+
+#~ msgid "times"
+#~ msgstr "بار"
+
+#~ msgid "scan count: "
+#~ msgstr "تعداد برنده شدن: "
+
+#~ msgid "Bonus Cards"
+#~ msgstr "کارت های جایزه"
+
+#~ msgid "Coupon registration success message."
+#~ msgstr "پیام ثبت کوپن موفقیت آمیز."
+
+#~ msgid "Your coupon was not registered."
+#~ msgstr "کوپن شما ثبت نشده است."

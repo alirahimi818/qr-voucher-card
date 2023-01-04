@@ -1,0 +1,256 @@
+.success-color {
+    color: green;
+    text-align: center;
+}
+
+.failed-color {
+    color: red;
+    text-align: center;
+}
+
+.qr-generate-page {
+    text-align: center;
+}
+
+.barcode-img-area {
+    width: 340px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-height: 390px;
+}
+
+.barcode-img-area img {
+    border-radius: 6px;
+}
+
+.barcode-img-bottom-area {
+    position: relative;
+    top: -40px;
+}
+
+.barcode-area {
+    padding: 5px;
+    text-align: center;
+    color: #267d00;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 18pt;
+}
+
+.qr-control-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.qr-control-box-title {
+    font-weight: bold;
+}
+
+.qr-control-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.flex-col {
+    flex-flow: column;
+}
+
+.qr-price-amount {
+    color: #267d00;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18pt;
+}
+
+.qr-price-slider {
+    width: 320px;
+    margin: 20px 0;
+}
+
+.qrvc-btn {
+    display: flex;
+    justify-content: center;
+    min-height: 40px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14pt;
+    line-height: 1;
+    background: #267d00;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #777;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+.qrvc-btn:disabled {
+    background: #ccc;
+    color: #777;
+}
+
+.btn-orange {
+    background: #f0b800;
+    color: #1c1c1c;
+}
+
+.btn-gray {
+    background: #626262;
+}
+
+.new-qr-btn, .save-qr-btn {
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.qr-print-btn {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-green {
+    color: #267d00;
+}
+
+.font-10 {
+    font-size: 10pt;
+}
+
+.border-red {
+    border-color: red !important;
+}
+
+.qr-voucher-show-box {
+    border: 2px dashed #267d00;
+    border-radius: 5px;
+    padding: 5px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.qr-voucher-show-box.border-red .qr-voucher-show-box-code {
+    border-color: red !important;
+    color: red !important;
+}
+
+.qr-voucher-show-box-code {
+    text-align: center;
+    color: #267d00;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 18pt;
+    border-bottom: 2px dashed #267d00;
+}
+
+.qr-voucher-show-box-area {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.qr-voucher-show-box-log-item {
+    font-size: 10pt;
+    color: #4b4b4b;
+}
+
+.print-block {
+    display: none;
+}
+
+.input-code {
+    position: absolute;
+    left: 0;
+    z-index: 7;
+    border: none !important;
+    height: 42px;
+    font-size: 18pt;
+    background-color: transparent;
+    top: 0;
+    margin: 10px auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.input-code:focus {
+    border: none !important;
+}
+
+.input-code-hidden {
+    position: relative;
+    height: 40px;
+    margin: 10px auto;
+    padding: 0 9px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    font-size: 18pt;
+    z-index: 1;
+    color: #ccc;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.qr-find-autocomplete li{
+    letter-spacing: 2px;
+    color: #267d00;
+}
+
+@media print {
+    @page {
+        size: A5;
+        margin: 0 3mm;
+    }
+
+    .print-white-page {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        background-color: #ffffff;
+    }
+
+    .print-none {
+        display: none;
+    }
+
+    .barcode-img-area {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 170px;
+        z-index: 999999;
+        border: 1px solid #ccc;
+    }
+
+    .barcode-area {
+        letter-spacing: 3px;
+        font-size: 13pt;
+    }
+
+    .barcode-date-area {
+        font-size: 11pt;
+    }
+
+    .barcode-img-bottom-area {
+        position: relative;
+        top: -20px;
+    }
+
+    .print-block {
+        display: block;
+    }
+}
