@@ -21,13 +21,13 @@ require_once(QRVC_PLUGIN_BASE_URL . 'includes/setting.php');
 
 function qrvc_run_default_setting()
 {
-    update_option('qr_voucher_currency_symbol', get_option('qr_voucher_currency_symbol') ?? '$');
-    update_option('qr_voucher_decimal_price', get_option('qr_voucher_decimal_price') ?? '2');
-    update_option('qr_voucher_step_price', get_option('qr_voucher_step_price') ?? '0.5');
-    update_option('qr_voucher_max_price', get_option('qr_voucher_max_price') ?? '200');
-    update_option('qr_voucher_default_price', get_option('qr_voucher_default_price') ?? '10');
-    update_option('qr_voucher_default_price_buttons', get_option('qr_voucher_default_price_buttons') ?? '10,20,30,40,50');
-    update_option('qr_voucher_date_format', get_option('qr_voucher_date_format') ?? 'D. d.m.Y H:i');
+    update_option('qr_voucher_currency_symbol', get_option('qr_voucher_currency_symbol') ?: '$');
+    update_option('qr_voucher_decimal_price', get_option('qr_voucher_decimal_price') ?: '2');
+    update_option('qr_voucher_step_price', get_option('qr_voucher_step_price') ?: '0.5');
+    update_option('qr_voucher_max_price', get_option('qr_voucher_max_price') ?: '200');
+    update_option('qr_voucher_default_price', get_option('qr_voucher_default_price') ?: '10');
+    update_option('qr_voucher_default_price_buttons', get_option('qr_voucher_default_price_buttons') ?: '10,20,30,40,50');
+    update_option('qr_voucher_date_format', get_option('qr_voucher_date_format') ?: 'D. d.m.Y H:i');
 }
 
 register_activation_hook(QRVC_PLUGIN_FILE_URL, 'qrvc_run_default_setting');
