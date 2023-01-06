@@ -65,7 +65,21 @@ jQuery(function () {
     jQuery(".qr-price-amount").val(slider_el.attr('data-symbol') + Number(slider_el.slider("value")).toFixed(Number(slider_el.attr('data-decimal'))));
 });
 
+function qrvc_print_qr_code() {
+    let divContents = jQuery(".barcode-img-area").clone();
+    let body = jQuery("body").detach();
+    document.body = document.createElement("body");
+    divContents.appendTo(jQuery("body"));
+    setTimeout(function () {
+        window.print();
+    }, 1000)
+    jQuery("html body").remove();
+    body.appendTo(jQuery("html"));
+}
+
 function generate_qr_voucher_card(price) {
+    let img_el = jQuery('.qr-generate-page .barcode-img-area img');
+    img_el.addClass('loading')
     let xhr = new XMLHttpRequest();
     xhr.open("POST", `${window.location.origin}/wp-admin/admin-ajax.php`, true);
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
@@ -77,7 +91,10 @@ function generate_qr_voucher_card(price) {
 
                 try {
                     let obj = JSON.parse(xhr.responseText);
-                    jQuery('.qr-generate-page .barcode-img-area img').attr('src', obj.url)
+                    setTimeout(function () {
+                        img_el.removeClass('loading')
+                    }, 2500)
+                    img_el.attr('src', obj.url)
                     jQuery('.qr-generate-page .barcode-area').text(obj.code)
                     jQuery('.qr-generate-page .barcode-date-area').text(obj.date)
                     jQuery('.qr-generate-page .qr-print-btn').css('display', 'block')

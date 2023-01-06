@@ -26,6 +26,7 @@
 .barcode-img-bottom-area {
     position: relative;
     top: -40px;
+    line-height: 1;
 }
 
 .barcode-area {
@@ -136,7 +137,7 @@
     border-radius: 5px;
     padding: 5px;
     width: 340px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .qr-voucher-show-box.border-red .qr-voucher-show-box-code {
@@ -172,28 +173,24 @@
     position: absolute;
     left: 0;
     z-index: 7;
-    border: none !important;
-    height: 42px;
-    font-size: 18pt;
+    border: 1px solid #777;
+    height: 39px;
+    font-size: 14pt;
     background-color: transparent;
     top: 0;
-    margin: 10px auto;
-    padding: 0 10px;
+    margin: 10px auto !important;
+    padding: 0 10px !important;
     border-radius: 5px;
-}
-
-.input-code:focus {
-    border: none !important;
 }
 
 .input-code-hidden {
     position: relative;
     height: 40px;
-    margin: 10px auto;
-    padding: 0 9px;
+    margin: 10px auto !important;
+    padding: 0 11px !important;
     border-radius: 5px;
-    border: 1px solid #777;
-    font-size: 18pt;
+    border: none !important;
+    font-size: 14pt;
     z-index: 1;
     color: #ccc;
 }
@@ -202,38 +199,44 @@
     position: relative;
 }
 
-.qr-find-autocomplete li{
+.qr-find-autocomplete li {
     letter-spacing: 2px;
     color: #267d00;
 }
 
+
 @media print {
     @page {
-        size: A5;
-        margin: 0 3mm;
+        size: A4;
+        margin: 0 5mm;
     }
 
-    .print-white-page {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 99999;
-        background-color: #ffffff;
+    body {
+        height: 300px !important;
     }
 
-    .print-none {
-        display: none;
+    body * {
+        visibility: hidden;
+    }
+
+    .barcode-img-area, .barcode-img-area * {
+        visibility: visible;
     }
 
     .barcode-img-area {
+        overflow: visible !important;
+        float: none !important;
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 170px;
-        z-index: 999999;
+        left: 30mm;
+        top: 10px;
+        display: block !important;
+        width: 150px;
         border: 1px solid #ccc;
+        padding: 2px;
+    }
+
+    .barcode-img-bottom-area {
+        top: -20px;
     }
 
     .barcode-area {
@@ -243,11 +246,7 @@
 
     .barcode-date-area {
         font-size: 11pt;
-    }
-
-    .barcode-img-bottom-area {
-        position: relative;
-        top: -20px;
+        text-align: center;
     }
 
     .print-block {
