@@ -1,0 +1,16 @@
+{
+    "name": "Voucher",
+    "short_name": "Voucher",
+    "description": "Voucher Generate Page",
+    "icons": [],
+    "screenshots": [],
+    "background_color": "#af0a1a",
+    "theme_color": "#af0a1a",
+    "display": "fullscreen",
+    "orientation": "any",
+    "start_url": "/qr-voucher-generate/",
+    "url": "/qr-voucher-generate/",
+    "scope": "/",
+    "lang": "de-DE",
+    "dir": "ltr"
+}
