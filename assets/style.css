@@ -128,6 +128,13 @@
     font-size: 10pt;
 }
 
+.w-150{
+    width: 150px;
+}
+.m-auto{
+    margin: 0 auto;
+}
+
 .border-red {
     border-color: red !important;
 }

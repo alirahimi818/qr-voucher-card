@@ -58,6 +58,7 @@ if ($is_admin) {
     $decimal_price = get_option('qr_voucher_decimal_price');
 
     if (!$qrCodeVoucher->voucher) {
+        $html .= "<a href='" . site_url('/qr-voucher-generate/') . "' class='qrvc-btn w-150 m-auto'>" . __('Add New', 'qrvc') . "</a>";
         $html .= "<div class='qr-control-area flex-col'>
                         <div class='text-center failed-color'>" . __('Voucher not found!', 'qrvc') . "</div>
                         <form action='' class='qr-find-form qr-control-area flex-col position-relative'>

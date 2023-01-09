@@ -20,6 +20,7 @@ if (current_user_can('manage_options')) {
         }
     }
 
+    $html .= "<a href='" . site_url('/qr-voucher-show/')."' class='qrvc-btn  w-150 m-auto'>" . __('Search', 'qrvc') . "</a>";
     $html .= "<div class='qr-generate-page'>
                     <div class='barcode-img-area'><img width='100%' src='" . plugins_url('/assets/error-qr.png', QRVC_PLUGIN_FILE_URL) . "'><div class='barcode-img-bottom-area'><div class='barcode-area'></div><div class='barcode-date-area'></div></div></div>
                     <div class='qr-control-box'>
