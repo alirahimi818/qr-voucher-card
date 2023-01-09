@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrvc\n"
-"POT-Creation-Date: 2023-01-04 16:05+0100\n"
-"PO-Revision-Date: 2023-01-04 22:10+0100\n"
+"POT-Creation-Date: 2023-01-09 13:48+0100\n"
+"PO-Revision-Date: 2023-01-09 13:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -14,6 +14,11 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: includes/admin-ajax.php:30
+msgid "Success Saved."
+msgstr "Erfolg gespeichert."
 
 #: includes/admin-voucher-logs.php:7 includes/admin-voucher-logs.php:56
 msgid "Voucher usage histories"
@@ -25,7 +30,7 @@ msgstr "Gutscheinverlauf"
 
 #: includes/admin-voucher-logs.php:61 includes/admin-voucher-logs.php:62
 #: includes/admin-vouchers.php:66 includes/admin-vouchers.php:67
-#: includes/shortcode.php:179
+#: includes/voucher-show-page.php:66
 msgid "Search"
 msgstr "Suche"
 
@@ -107,115 +112,135 @@ msgstr "inaktiv"
 msgid "Voucher Page"
 msgstr "Gutscheinseite"
 
-#: includes/pages.php:12
+#: includes/pages.php:11
 msgid "Voucher QR Generator"
 msgstr "Gutschein-QR-Generator"
 
-#: includes/pages.php:17
+#: includes/pages.php:15
 msgid "Voucher Show"
 msgstr "Gutschein anzeigen"
 
-#: includes/setting.php:27
+#: includes/setting.php:32
 msgid "QR Voucher Card Setting"
 msgstr "QR-Gutscheinkarteneinstellung"
 
-#: includes/setting.php:33
+#: includes/setting.php:38
 msgid "Currency symbol"
 msgstr "Währungszeichen"
 
-#: includes/setting.php:38
+#: includes/setting.php:43
 msgid "For example: $, €, £,..."
 msgstr "Zum Beispiel: $, €, £,…"
 
-#: includes/setting.php:42
+#: includes/setting.php:47
 msgid "Decimal price"
 msgstr "Dezimaler Preis"
 
-#: includes/setting.php:47
+#: includes/setting.php:52
 msgid "Decimal number for voucher price."
 msgstr "Dezimalzahl für Gutscheinpreis."
 
-#: includes/setting.php:51
+#: includes/setting.php:56
 msgid "Step Price"
 msgstr "Schrittpreis"
 
-#: includes/setting.php:55
+#: includes/setting.php:60
 msgid "Step price in slider create voucher page."
 msgstr "Schrittpreis auf der Gutscheinseite."
 
-#: includes/setting.php:59
+#: includes/setting.php:64
 msgid "Max Price"
 msgstr "Maximaler Preis"
 
-#: includes/setting.php:63
+#: includes/setting.php:68
 msgid "Max price in create voucher page."
 msgstr "Höchstpreis auf der Gutscheinseite."
 
-#: includes/setting.php:67
+#: includes/setting.php:72
 msgid "Default Price"
 msgstr "Standardpreis"
 
-#: includes/setting.php:72
+#: includes/setting.php:77
 msgid "Default price in create voucher page."
 msgstr "Standardpreis auf der Seite Gutscheinseite."
 
-#: includes/setting.php:76
+#: includes/setting.php:81
 msgid "Default Buttons Price"
 msgstr "Standardpreis für Buttons"
 
-#: includes/setting.php:81
+#: includes/setting.php:86
 msgid "Default Buttons price in create voucher page."
 msgstr "Standardpreis für Buttons auf der Gutscheinseite."
 
-#: includes/setting.php:82
+#: includes/setting.php:87
 msgid "Separate the amount of each button with a comma."
 msgstr "Trennen Sie die Anzahl der einzelnen button durch ein Komma."
 
-#: includes/setting.php:86
+#: includes/setting.php:91
 msgid "Date Format"
 msgstr "Datumsformat"
 
-#: includes/shortcode.php:39
-msgid "Success Saved."
-msgstr "Erfolg gespeichert."
+#: includes/setting.php:100
+msgid "Favicon image url (for PWA)"
+msgstr "Favicon-Bild-URL (für PWA)"
 
-#: includes/shortcode.php:91
+#: includes/setting.php:107 includes/setting.php:112
+msgid "Remove image"
+msgstr "Entferne Bild"
+
+#: includes/setting.php:111 includes/setting.php:168
+msgid "Upload image"
+msgstr "Bild hochladen"
+
+#: includes/setting.php:115
+msgid "best size 80x80 pixel"
+msgstr "beste Größe 80x80 Pixel"
+
+#: includes/setting.php:132
+msgid "Insert image"
+msgstr "Bild einfügen"
+
+#: includes/setting.php:138
+msgid "Use this image"
+msgstr "Verwenden Sie dieses Bild"
+
+#: includes/voucher-generate-page.php:27
 msgid "Enter Voucher Price"
 msgstr "Geben Sie den Gutscheinpreis ein"
 
-#: includes/shortcode.php:99
+#: includes/voucher-generate-page.php:35
 msgid "Generate QR-Code"
 msgstr "QR-Code generieren"
 
-#: includes/shortcode.php:100
+#: includes/voucher-generate-page.php:36
 msgid "Print QR-Code"
 msgstr "QR-Code drucken"
 
-#: includes/shortcode.php:145
+#: includes/voucher-show-page.php:36
 msgid "Used History: "
 msgstr "Gebrauchte verlauf: "
 
-#: includes/shortcode.php:154
+#: includes/voucher-show-page.php:45
 msgid "Voucher Price: "
 msgstr "Gutscheinpreis: "
 
-#: includes/shortcode.php:155
+#: includes/voucher-show-page.php:46
 msgid "Voucher Balance: "
 msgstr "Gutscheinguthaben: "
 
-#: includes/shortcode.php:175
+#: includes/voucher-show-page.php:62
 msgid "Voucher not found!"
 msgstr "Gutschein nicht gefunden!"
 
-#: includes/shortcode.php:177
+#: includes/voucher-show-page.php:64
 msgid "Enter the voucher code"
 msgstr "Geben Sie den Gutscheincode ein"
 
-#: includes/shortcode.php:187
+#: includes/voucher-show-page.php:74
 msgid "Enter the amount"
 msgstr "Geben Sie den Betrag ein"
 
-#: includes/shortcode.php:197
+#: includes/voucher-show-page.php:84
 msgid "Save"
 msgstr "Speichern"
 
@@ -248,9 +273,6 @@ msgstr "Speichern"
 
 #~ msgid "Card deactivate item image url"
 #~ msgstr "Bild-URL des inaktiven Kartenelements"
-
-#~ msgid "best size 80x80 pixel"
-#~ msgstr "beste Größe 80x80 Pixel"
 
 #~ msgid "Card active item image url"
 #~ msgstr "Bild-URL des aktiven Kartenelements"

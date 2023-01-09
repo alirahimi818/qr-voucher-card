@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrvc\n"
-"POT-Creation-Date: 2023-01-04 22:09+0100\n"
-"PO-Revision-Date: 2023-01-04 22:21+0100\n"
+"POT-Creation-Date: 2023-01-09 13:48+0100\n"
+"PO-Revision-Date: 2023-01-09 13:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -14,6 +14,11 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: includes/admin-ajax.php:30
+msgid "Success Saved."
+msgstr "با موفقیت ذخیره شد."
 
 #: includes/admin-voucher-logs.php:7 includes/admin-voucher-logs.php:56
 msgid "Voucher usage histories"
@@ -25,7 +30,7 @@ msgstr "تاریخچخ کوپن ها"
 
 #: includes/admin-voucher-logs.php:61 includes/admin-voucher-logs.php:62
 #: includes/admin-vouchers.php:66 includes/admin-vouchers.php:67
-#: includes/shortcode.php:179
+#: includes/voucher-show-page.php:66
 msgid "Search"
 msgstr "جستجو"
 
@@ -107,115 +112,135 @@ msgstr "غیرفعال"
 msgid "Voucher Page"
 msgstr "صفحه کوپن"
 
-#: includes/pages.php:12
+#: includes/pages.php:11
 msgid "Voucher QR Generator"
 msgstr "بارکد ساز کوپن"
 
-#: includes/pages.php:17
+#: includes/pages.php:15
 msgid "Voucher Show"
 msgstr "نمایش کوپن"
 
-#: includes/setting.php:27
+#: includes/setting.php:32
 msgid "QR Voucher Card Setting"
 msgstr "تنظیمات کارت کوپن"
 
-#: includes/setting.php:33
+#: includes/setting.php:38
 msgid "Currency symbol"
 msgstr "نماد ارز"
 
-#: includes/setting.php:38
+#: includes/setting.php:43
 msgid "For example: $, €, £,..."
 msgstr "برای مثال: $, €, £,…"
 
-#: includes/setting.php:42
+#: includes/setting.php:47
 msgid "Decimal price"
 msgstr "اعشار قیمت"
 
-#: includes/setting.php:47
+#: includes/setting.php:52
 msgid "Decimal number for voucher price."
 msgstr "تعداد اعشار برای قیمت کوپن."
 
-#: includes/setting.php:51
+#: includes/setting.php:56
 msgid "Step Price"
 msgstr "پله قیمت"
 
-#: includes/setting.php:55
+#: includes/setting.php:60
 msgid "Step price in slider create voucher page."
 msgstr "پله قیمت در اسلایدر صفحه ایجاد کوپن."
 
-#: includes/setting.php:59
+#: includes/setting.php:64
 msgid "Max Price"
 msgstr "بیشترین قیمت"
 
-#: includes/setting.php:63
+#: includes/setting.php:68
 msgid "Max price in create voucher page."
 msgstr "بیشترین قیمت در صفحه ایجاد کوپن."
 
-#: includes/setting.php:67
+#: includes/setting.php:72
 msgid "Default Price"
 msgstr "قیمت پیشفرض"
 
-#: includes/setting.php:72
+#: includes/setting.php:77
 msgid "Default price in create voucher page."
 msgstr "قیمت پیشفرض در صفحه ایجاد کوپن."
 
-#: includes/setting.php:76
+#: includes/setting.php:81
 msgid "Default Buttons Price"
 msgstr "قیمت دکمه های پیشفرض"
 
-#: includes/setting.php:81
+#: includes/setting.php:86
 msgid "Default Buttons price in create voucher page."
 msgstr "قیمت دکمه های پیشفرض در صفحه ایجاد کوپن."
 
-#: includes/setting.php:82
+#: includes/setting.php:87
 msgid "Separate the amount of each button with a comma."
 msgstr "قیمت ها را با کاما (,) از هم جدا کنید."
 
-#: includes/setting.php:86
+#: includes/setting.php:91
 msgid "Date Format"
 msgstr "فرمت تاریخ"
 
-#: includes/shortcode.php:39
-msgid "Success Saved."
-msgstr "با موفقیت ذخیره شد."
+#: includes/setting.php:100
+msgid "Favicon image url (for PWA)"
+msgstr "انتخاب آیکون (برای PWA)"
 
-#: includes/shortcode.php:91
+#: includes/setting.php:107 includes/setting.php:112
+msgid "Remove image"
+msgstr "حذف تصویر"
+
+#: includes/setting.php:111 includes/setting.php:168
+msgid "Upload image"
+msgstr "آپلود تصویر"
+
+#: includes/setting.php:115
+msgid "best size 80x80 pixel"
+msgstr "بهترین سایز ۸۰ در ۸۰ پیکسل"
+
+#: includes/setting.php:132
+msgid "Insert image"
+msgstr "افزودن تصویر"
+
+#: includes/setting.php:138
+msgid "Use this image"
+msgstr "انتخاب این تصویر"
+
+#: includes/voucher-generate-page.php:27
 msgid "Enter Voucher Price"
 msgstr "قیمت کوپن را وارد کنید"
 
-#: includes/shortcode.php:99
+#: includes/voucher-generate-page.php:35
 msgid "Generate QR-Code"
 msgstr "ایجاد بارکد"
 
-#: includes/shortcode.php:100
+#: includes/voucher-generate-page.php:36
 msgid "Print QR-Code"
 msgstr "چاپ بارکد"
 
-#: includes/shortcode.php:145
+#: includes/voucher-show-page.php:36
 msgid "Used History: "
 msgstr "تاریخچه استفاده شده: "
 
-#: includes/shortcode.php:154
+#: includes/voucher-show-page.php:45
 msgid "Voucher Price: "
 msgstr "قیمت کوپن: "
 
-#: includes/shortcode.php:155
+#: includes/voucher-show-page.php:46
 msgid "Voucher Balance: "
 msgstr "موجودی کوپن: "
 
-#: includes/shortcode.php:175
+#: includes/voucher-show-page.php:62
 msgid "Voucher not found!"
 msgstr "کوپن یافت نشد!"
 
-#: includes/shortcode.php:177
+#: includes/voucher-show-page.php:64
 msgid "Enter the voucher code"
 msgstr "کد کوپن را وارد کنید"
 
-#: includes/shortcode.php:187
+#: includes/voucher-show-page.php:74
 msgid "Enter the amount"
 msgstr "مقدار را وارد کنید"
 
-#: includes/shortcode.php:197
+#: includes/voucher-show-page.php:84
 msgid "Save"
 msgstr "ذخیره"
 
@@ -248,9 +273,6 @@ msgstr "ذخیره"
 
 #~ msgid "Card deactivate item image url"
 #~ msgstr "آدرس تصویر  آیتم غیرفعال کارت جایزه"
-
-#~ msgid "best size 80x80 pixel"
-#~ msgstr "بهترین سایز ۸۰ در ۸۰ پیکسل"
 
 #~ msgid "Card active item image url"
 #~ msgstr "آدرس تصویر  آیتم فعال کارت جایزه"
