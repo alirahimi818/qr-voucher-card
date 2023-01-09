@@ -11,8 +11,6 @@ if ($is_admin) {
     wp_enqueue_script('jquery-ui-touch', plugins_url('/assets/jquery.ui.touch-punch.min.js', QRVC_PLUGIN_FILE_URL), false, '0.2.3', 'all');
 }
 
-get_header();
-
 if (!@$_GET['code'] and !$is_admin) {
     wp_redirect(get_site_url());
 }
@@ -22,8 +20,6 @@ $code = @$_GET['code'];
 $qrCodeVoucher = new QrCodevoucher($code);
 
 $price_symbol = get_option('qr_voucher_currency_symbol');
-
-the_content('');
 
 $html = "";
 
@@ -90,6 +86,11 @@ if ($is_admin) {
         ";
     }
 }
+
+get_header();
+
+the_content('');
+
 echo $html;
 
 get_footer();
